@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    android:gravity="center"
+    android:id="@+id/DrawableLayout"
+    android:fitsSystemWindows="true"
+    android:layout_gravity="center"
+    tools:openDrawer="start"
+    tools:context=".NextDonation">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/toolbar"
+        android:background="@color/red"
+        app:titleTextColor="@color/white"
+        android:theme="@style/ThemeOverlay.AppCompat.Light"
+        app:title="BBMS"
+        app:titleMarginStart="10dp"
+        android:layout_marginBottom="5dp"
+        tools:ignore="MissingConstraints"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="80dp">
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="50sp"
+    android:text="Enter Your Last Donation Date"
+    android:textColor="@color/black"
+    android:textStyle="bold"
+    android:textSize="20dp"
+    android:gravity="center"
+    android:layout_marginHorizontal="20dp"
+    android:layout_marginTop="40dp"
+    />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:id="@+id/LastDonation"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="40dp"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/roundbutton"
+        android:layout_marginHorizontal="80dp"
+        android:textSize="20dp"
+        android:text="Enter Date"
+        android:id="@+id/EnterDate"
+        android:drawableLeft="@drawable/ic_baseline_calendar_today_24"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:text="Your Next Donation Should be:"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="40dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:id="@+id/futureDonation"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="40dp"/>
+</LinearLayout>
+     </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    <com.google.android.material.navigation.NavigationView
+        android:id="@+id/navigationview"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        app:headerLayout="@layout/header"
+        app:menu="@menu/usermenu" />
+
+</androidx.drawerlayout.widget.DrawerLayout>

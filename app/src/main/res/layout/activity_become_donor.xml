@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    tools:context=".BecomeDonor">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:paddingHorizontal="40dp"
+        android:text="Become Donor"
+        android:textAlignment="center"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/D_Name"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:layout_marginHorizontal="17dp"
+        android:layout_marginTop="17dp"
+        android:drawablePadding="10dp"
+        android:hint="Enter Your Full Name"
+        android:inputType="text"
+        android:paddingStart="6dp"
+        android:paddingEnd="6dp"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/D_Contact"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginHorizontal="17dp"
+        android:layout_marginTop="17dp"
+        android:drawablePadding="10dp"
+        android:hint="Enter Contact"
+        android:inputType="text"
+        android:paddingStart="6dp"
+        android:paddingEnd="6dp"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/D_Location"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginHorizontal="17dp"
+        android:layout_marginTop="17dp"
+        android:drawablePadding="10dp"
+        android:hint="Enter Location"
+        android:inputType="text"
+        android:paddingStart="6dp"
+        android:paddingEnd="6dp"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/D_City"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginHorizontal="17dp"
+        android:layout_marginTop="17dp"
+        android:drawablePadding="10dp"
+        android:hint="Enter City"
+        android:paddingStart="12dp"
+        android:paddingEnd="12dp"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/D_Age"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginHorizontal="17dp"
+        android:layout_marginTop="17dp"
+        android:drawablePadding="10dp"
+        android:hint="Enter Your Age"
+        android:paddingStart="12dp"
+        android:paddingEnd="12dp"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/D_Blood"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginHorizontal="17dp"
+        android:layout_marginTop="17dp"
+        android:drawablePadding="10dp"
+        android:hint="Enter Blood Group"
+        android:inputType="text"
+        android:paddingStart="6dp"
+        android:paddingEnd="6dp"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+
+    <Button
+        android:id="@+id/D_Submit"
+        android:layout_width="150dp"
+        android:layout_height="70dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginHorizontal="100dp"
+        android:layout_marginTop="22dp"
+        android:drawablePadding="10dp"
+        android:paddingStart="6dp"
+        android:paddingEnd="6dp"
+        android:text="Submit"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:backgroundTint="@android:color/holo_red_dark" />
+
+
+</LinearLayout>

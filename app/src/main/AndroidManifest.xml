@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.bloodbankproject">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Bloodbankproject">
+        <activity android:name=".NextDonation"></activity>
+        <activity android:name=".BloodInfoTable" />
+        <activity android:name=".bloodreq" />
+        <activity android:name=".BloodDonor" />
+        <activity android:name=".AddBloodRequest" />
+        <activity android:name=".UpdateProfile" />
+        <activity android:name=".UpdateWork" />
+        <activity android:name=".UserRequest" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".Dashboard" />
+        <activity android:name=".loginpage" />
+        <activity android:name=".Splashmywork">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

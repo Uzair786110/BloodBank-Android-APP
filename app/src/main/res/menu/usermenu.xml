@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/Request"
+            android:icon="@drawable/drop"
+            android:title="Blood Request" />
+        <item
+            android:id="@+id/update"
+            android:icon="@drawable/ic_baseline_update_24"
+            android:title="Update Profile" />
+        <item
+            android:id="@+id/Add"
+            android:icon="@drawable/ic_baseline_add_circle_24"
+            android:title="Add Blood Request" />
+
+        <item
+            android:id="@+id/UpdateReq"
+            android:icon="@drawable/update"
+            android:title="Update Blood Request" />
+        <item
+            android:id="@+id/BloodInfo"
+            android:icon="@drawable/ic_baseline_info_24"
+            android:title="Blood info" />
+        <item
+            android:id="@+id/FindDonor"
+            android:icon="@drawable/drop"
+            android:title="Find Donor" />
+        <item
+            android:id="@+id/Next"
+            android:icon="@drawable/ic_baseline_notifications_active_24"
+            android:title="Next Donation" />
+
+        <item
+            android:id="@+id/About"
+            android:icon="@drawable/ic_baseline_info_24"
+            android:title="About" />
+
+
+        <item
+            android:id="@+id/logout"
+            android:icon="@drawable/ic_baseline_power_settings_new_24"
+            android:title="Logout" />
+    </group>
+
+</menu>

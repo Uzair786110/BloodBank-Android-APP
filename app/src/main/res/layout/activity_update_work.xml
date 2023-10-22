@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    tools:context=".UpdateWork">
+<EditText
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="20dp"
+    android:hint="Update Name"
+    android:id="@+id/requpdateName"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:hint="Update Contact"
+        android:id="@+id/requpdateContact"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:hint="Update Address"
+        android:id="@+id/requpdateLocation"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:hint="Update City"
+        android:id="@+id/requpdateCity"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:hint="Update BloodType"
+        android:id="@+id/requpdateType"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:hint="Update Required Blood"
+        android:id="@+id/requpdateRequiredBlood"/>
+<Button
+    android:layout_width="wrap_content"
+    android:layout_height="40dp"
+    android:background="@drawable/roundbutton"
+    android:id="@+id/btnup"
+    android:text="Update Request"
+    android:onClick="updateReq"
+    android:layout_gravity="center"/>
+
+</LinearLayout>
